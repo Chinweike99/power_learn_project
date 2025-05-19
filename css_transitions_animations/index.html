@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS & JS Animations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Animation Demo</h1>
+        
+        <div class="preferences">
+            <h2>User Preferences</h2>
+            <div class="pref-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username">
+                
+                <label for="theme">Theme:</label>
+                <select id="theme">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                    <option value="blue">Blue</option>
+                </select>
+                
+                <button id="savePref">Save Preferences</button>
+            </div>
+        </div>
+        
+        <div class="animation-area">
+            <h2>Animation Controls</h2>
+            <button id="animateBtn">Trigger Animation</button>
+            <div class="animated-box" id="box"></div>
+        </div>
+        
+        <div class="transition-demo">
+            <h2>Transition Demo</h2>
+            <button class="fancy-btn">Hover Me!</button>
+            <div class="transition-box"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
