@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">FlexGrid</a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <section class="hero" id="home">
+            <h1>Responsive Design Mastery</h1>
+            <p>Combining the power of Flexbox and CSS Grid for modern layouts</p>
+            <a href="#features" class="cta-button">Explore Features</a>
+        </section>
+
+        <main class="content">
+            <h2 class="section-title" id="features">Key Features</h2>
+            
+            <div class="cards-container">
+                <div class="card">
+                    <h3>Flexbox Layout</h3>
+                    <p>Perfect for navigation bars, card layouts, and centering content. Provides excellent control over alignment and distribution.</p>
+                    <p>Used here for: Navigation menu, card container, and various alignment needs.</p>
+                </div>
+                <div class="card">
+                    <h3>CSS Grid Layout</h3>
+                    <p>Ideal for complex two-dimensional layouts. Offers precise control over rows and columns.</p>
+                    <p>Used here for: Main page structure, features grid, and responsive content areas.</p>
+                </div>
+                <div class="card">
+                    <h3>Responsive Design</h3>
+                    <p>Adapts seamlessly across all devices using media queries and flexible units.</p>
+                    <p>Breakpoints: Mobile (480px), Tablet (768px), Desktop (1200px+)</p>
+                </div>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">📱</div>
+                    <h4>Mobile First</h4>
+                    <p>Designed with mobile users in mind</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">⚡</div>
+                    <h4>Fast Loading</h4>
+                    <p>Optimized for performance</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🎨</div>
+                    <h4>Modern Design</h4>
+                    <p>Clean and contemporary aesthetic</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🔧</div>
+                    <h4>Maintainable</h4>
+                    <p>Well-structured and documented code</p>
+                </div>
+            </div>
+
+            <section class="mt-2" id="about">
+                <h2 class="section-title">About This Layout</h2>
+                <div class="card">
+                    <h3>Technical Implementation</h3>
+                    <p>This webpage demonstrates the effective combination of Flexbox and CSS Grid:</p>
+                    <div class="implementation-details">
+                        <div class="detail-item">
+                            <strong>Flexbox:</strong> Used for the navigation bar, card containers, and centering elements
+                        </div>
+                        <div class="detail-item">
+                            <strong>CSS Grid:</strong> Used for the main page layout and features grid
+                        </div>
+                        <div class="detail-item">
+                            <strong>Media Queries:</strong> Responsive breakpoints for mobile, tablet, and desktop
+                        </div>
+                        <div class="detail-item">
+                            <strong>Pure CSS:</strong> No JavaScript required for functionality
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <aside class="sidebar">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#home">Hero Section</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+            <h3 class="sidebar-section">Layout Techniques</h3>
+            <ul>
+                <li><a href="#">Flexbox Guide</a></li>
+                <li><a href="#">Grid Tutorial</a></li>
+                <li><a href="#">Responsive Design</a></li>
+                <li><a href="#">Media Queries</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <p>&copy; 2025 FlexGrid. Demonstrating responsive design with Flexbox and CSS Grid.</p>
+        <p>Resize your browser window to see the responsive behavior!</p>
+    </footer>
+</body>
+</html>
