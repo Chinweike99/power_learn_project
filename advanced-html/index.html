@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Page Header -->
+  <header>
+    <h1>Welcome to Our Website</h1>
+    <p>Please find below the resources and registration form.</p>
+  </header>
+
+  <!-- Ordered List -->
+  <section>
+    <h2>Topics Covered</h2>
+    <ol type="I">
+      <li>HTML Semantics</li>
+      <li>CSS Styling</li>
+      <li>JavaScript Basics</li>
+      <li>Form Validation</li>
+      <li>Multimedia Integration</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Sample Image from Pexels</h2>
+    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" 
+         alt="Nature Image from Pexels" 
+         width="600" />
+  </section>
+
+  <section>
+    <h2>Contact List</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Alice Johnson</td>
+          <td>123 Maple St</td>
+          <td>+1 555-0101</td>
+          <td>alice@example.com</td>
+        </tr>
+        <tr>
+          <td>Bob Smith</td>
+          <td>456 Oak Rd</td>
+          <td>+1 555-0202</td>
+          <td>bob@example.com</td>
+        </tr>
+        <tr>
+          <td>Carol White</td>
+          <td>789 Pine Ln</td>
+          <td>+1 555-0303</td>
+          <td>carol@example.com</td>
+        </tr>
+        <tr>
+          <td>David Brown</td>
+          <td>321 Birch Ave</td>
+          <td>+1 555-0404</td>
+          <td>david@example.com</td>
+        </tr>
+        <tr>
+          <td>Eve Black</td>
+          <td>654 Cedar Blvd</td>
+          <td>+1 555-0505</td>
+          <td>eve@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Multimedia Section -->
+  <section>
+    <h2>Multimedia</h2>
+    <audio controls>
+      <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <br>
+    <video width="400" controls>
+      <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <section>
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="John Doe" required /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="example@example.com" required /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter password" minlength="6" required /><br />
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required /><br />
+
+      <label for="role">Select Role:</label>
+      <select id="role" name="role" required>
+        <option value="">--Select--</option>
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+        <option value="developer">Developer</option>
+      </select><br />
+
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br />
+>
+      <p>Interests:</p>
+      <input type="checkbox" id="coding" name="interests" value="coding" />
+      <label for="coding">Coding</label>
+      <input type="checkbox" id="music" name="interests" value="music" />
+      <label for="music">Music</label>
+      <input type="checkbox" id="travel" name="interests" value="travel" />
+      <label for="travel">Travel</label><br />
+
+      <input type="submit" value="Register" />
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 WebForm Inc. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
