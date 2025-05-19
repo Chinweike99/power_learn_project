@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Tailoring Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Tailoring Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p id="welcome-text">Discover the art of perfect tailoring.</p>
+            <button onclick="changeWelcomeText()">Change Welcome Message</button>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <p>We offer custom tailoring, alterations, and bespoke clothing services.</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>With years of experience in the tailoring industry, we pride ourselves on delivering premium quality craftsmanship.</p>
+        </section>
+        <section id="dynamic-section">
+            <h2>Dynamic Section</h2>
+            <button onclick="addParagraph()">Add Paragraph</button>
+            <button onclick="removeParagraph()">Remove Paragraph</button>
+            <div id="dynamic-content"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us at: <a href="mailto:info@mytailoringplatform.com">info@mytailoringplatform.com</a></p>
+        <p>&copy; 2025 My Tailoring Platform. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
